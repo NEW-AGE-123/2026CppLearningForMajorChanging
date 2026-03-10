@@ -1,5 +1,0 @@
-﻿  Pointer1.cpp
-E:\VS_Program\Pointer1\Pointer1.cpp(8,31): warning C4101: “target”: 未引用的局部变量
-  Pointer1.vcxproj -> E:\VS_Program\Pointer1\x64\Debug\Pointer1.exe
-  'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
-  或批处理文件。

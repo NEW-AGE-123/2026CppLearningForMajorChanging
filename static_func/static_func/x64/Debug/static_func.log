@@ -1,5 +1,0 @@
-﻿  static_func.cpp
-E:\VS_Program\static_func\static_func.cpp(34,10): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-  static_func.vcxproj -> E:\VS_Program\static_func\x64\Debug\static_func.exe
-  'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
-  或批处理文件。

@@ -1,5 +1,0 @@
-﻿  operator.cpp
-E:\VS_Program\10.1_overloaded_operator\operator.cpp(58,1): warning C4172: 返回局部变量的地址或临时 : temp
-  10.1_overloaded_operator.vcxproj -> E:\VS_Program\10.1_overloaded_operator\x64\Debug\10.1_overloaded_operator.exe
-  'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
-  或批处理文件。
