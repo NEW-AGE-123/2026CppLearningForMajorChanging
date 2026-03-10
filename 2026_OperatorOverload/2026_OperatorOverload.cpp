@@ -100,7 +100,7 @@ int main()
 	a.value = 10;
 	b.value = 20;
 	Kard c;
-	c = a + b;
+	c = (a + b);
 
 	cout << c << endl;
 	cin >> c;
