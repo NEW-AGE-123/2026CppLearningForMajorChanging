@@ -34,9 +34,13 @@ public:
 		color++;
 		return temp;
 	}
-	Kard operator=(Kard& p)
+	Kard& operator=(const Kard& p)
 	{
-		p.color = this->color;
+		if (this == &p) {
+			return *this;
+		}
+		this->color = p.color;
+		return *this;
 	}
 private:
 	int color = 10;
@@ -100,7 +104,7 @@ int main()
 	a.value = 10;
 	b.value = 20;
 	Kard c;
-	c = (a + b);
+	c = a + b;
 
 	cout << c << endl;
 	cin >> c;
