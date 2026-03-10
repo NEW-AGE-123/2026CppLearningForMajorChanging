@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\VS_Program\\2026Lab04_SimpleCal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B98CE4-2A09-4F3C-BD89-F6FA921F7248}|2026Lab04_SimpleCal.vcxproj|E:\\VS_Program\\2026Lab04_SimpleCal\\2026Lab04_SimpleCal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8B98CE4-2A09-4F3C-BD89-F6FA921F7248}|2026Lab04_SimpleCal.vcxproj|solutionrelative:2026Lab04_SimpleCal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "2026Lab04_SimpleCal.cpp",
+              "DocumentMoniker": "E:\\VS_Program\\2026Lab04_SimpleCal\\2026Lab04_SimpleCal.cpp",
+              "RelativeDocumentMoniker": "2026Lab04_SimpleCal.cpp",
+              "ToolTip": "E:\\VS_Program\\2026Lab04_SimpleCal\\2026Lab04_SimpleCal.cpp",
+              "RelativeToolTip": "2026Lab04_SimpleCal.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-10T13:17:06.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

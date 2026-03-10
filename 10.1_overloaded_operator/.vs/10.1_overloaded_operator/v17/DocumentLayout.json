@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\VS_Program\\10.1_overloaded_operator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F55BAA0-ED4E-49B7-977E-8F153C26E823}|10.1_overloaded_operator.vcxproj|E:\\VS_Program\\10.1_overloaded_operator\\operator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9F55BAA0-ED4E-49B7-977E-8F153C26E823}|10.1_overloaded_operator.vcxproj|solutionrelative:operator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F55BAA0-ED4E-49B7-977E-8F153C26E823}|10.1_overloaded_operator.vcxproj|E:\\VS_Program\\10.1_overloaded_operator\\friend_class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9F55BAA0-ED4E-49B7-977E-8F153C26E823}|10.1_overloaded_operator.vcxproj|solutionrelative:friend_class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "operator.cpp",
+              "DocumentMoniker": "E:\\VS_Program\\10.1_overloaded_operator\\operator.cpp",
+              "RelativeDocumentMoniker": "operator.cpp",
+              "ToolTip": "E:\\VS_Program\\10.1_overloaded_operator\\operator.cpp",
+              "RelativeToolTip": "operator.cpp",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-26T08:47:00.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "friend_class.cpp",
+              "DocumentMoniker": "E:\\VS_Program\\10.1_overloaded_operator\\friend_class.cpp",
+              "RelativeDocumentMoniker": "friend_class.cpp",
+              "ToolTip": "E:\\VS_Program\\10.1_overloaded_operator\\friend_class.cpp",
+              "RelativeToolTip": "friend_class.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-26T06:53:25.568Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
