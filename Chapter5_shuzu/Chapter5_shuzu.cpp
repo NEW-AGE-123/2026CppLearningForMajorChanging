@@ -24,9 +24,9 @@ void print(int a[])
 
 void BubbleSort(int a[], int n)
 {
-    for (int i = 0; i < n-1; i++)
+    for (int i = 0; i < n - 1; i++)
     {
-        for (int k = 0; k < n-1; k++)
+        for (int k = 0; k < n - 1; k++)
         {
             if (a[k] >= a[k + 1]) {
                 swap(a[k], a[k + 1]);
@@ -35,15 +35,15 @@ void BubbleSort(int a[], int n)
     }
 }
 
-void SelectionSort(int a[],int n)
+void SelectionSort(int a[], int n)
 {
     int i = 0, j = 0, k = 0;
-    for (int i = 0; i < n-1; i++)
+    for (int i = 0; i < n - 1; i++)
     {
         k = i;
-        for (int j = i+1; j < n; j++) 
+        for (int j = i + 1; j < n; j++)
         {
-            if (a[k]>a[j])
+            if (a[k] > a[j])
             {
                 k = j;
             }
@@ -52,24 +52,24 @@ void SelectionSort(int a[],int n)
     }
 }
 
-int BSearch_core(int a[],int x,int left, int right)
+int BSearch_core(int a[], int x, int left, int right)
 {
     int mid = (left + right) / 2;
-    if (left>right)
+    if (left > right)
     {
         return -1;
     }
-    if (a[mid]<x)
+    if (a[mid] < x)
     {
-        return BSearch_core(a, x, mid+1, right);
+        return BSearch_core(a, x, mid + 1, right);
     }
     if (a[mid] > x)
     {
-        return BSearch_core(a, x, left, mid-1);
+        return BSearch_core(a, x, left, mid - 1);
     }
     if (a[mid] == x)
     {
-        return mid+1;
+        return mid + 1;
     }
 }
 
@@ -103,7 +103,7 @@ void read()
     string word[20];
     int k = 0;
     string temp;
-    while (iss>>temp)
+    while (iss >> temp)
     {
         word[k++] = temp;
     }
@@ -137,7 +137,7 @@ int main()
     print(target);
     SelectionSort(target, 100);
     print(target);
-    cout<<BSearch_core(target, 100, 0, 99);
+    cout << BSearch_core(target, 100, 0, 99);
 
 
 
@@ -159,12 +159,12 @@ int main()
     strcpy(s1, s2);                                      //字符串复制
     strncpy(s1, s2, 5);                                  //字符串部分复制
     strcat_s(s1, s2);                                      //字符串拼接
-    cout<<strncat(s1, s2, 5);                            //字符串部分拼接，将s2前n个字符凭借到s1
-    cout<<strcmp(s1, s2);                                //字符串比较，前大于后输出1
-    cout<<strlen(s1);
-    char *temp;
+    cout << strncat(s1, s2, 5);                            //字符串部分拼接，将s2前n个字符凭借到s1
+    cout << strcmp(s1, s2);                                //字符串比较，前大于后输出1
+    cout << strlen(s1);
+    char* temp;
     temp = strtok(s1, " ");
-    while (temp!=NULL)
+    while (temp != NULL)
     {
         cout << temp << ":";
         temp = strtok(NULL, " ");

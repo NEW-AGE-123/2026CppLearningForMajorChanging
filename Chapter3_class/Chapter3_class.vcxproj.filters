@@ -18,10 +18,8 @@
     <ClCompile Include="Chapter3_class.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Grade.h">
+    <ClCompile Include="Grade.h">
       <Filter>源文件</Filter>
-    </ClInclude>
+    </ClCompile>
   </ItemGroup>
 </Project>

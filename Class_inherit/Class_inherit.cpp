@@ -23,7 +23,7 @@ public:
     int strength;
 };
 
-class student_athlete :public athletes,public student
+class student_athlete :public athletes, public student
 {
 public:
     student_athlete(int a)
@@ -42,5 +42,5 @@ int main()
     student_athlete Zyq(2);
     Zyq.student::scores;
 
-    
+
 }

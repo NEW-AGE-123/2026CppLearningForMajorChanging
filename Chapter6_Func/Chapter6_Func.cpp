@@ -33,7 +33,7 @@ T MaxData(T a, T b, T c)
 }
 
 template<typename T>
-auto MaxData(T a, T b, T c)->T
+auto MaxData(T a, T b, T c) -> T
 {
     T max = a;
     (b > max) ? max = b : ;
@@ -59,7 +59,7 @@ void cmath_EX()
 
 int main()
 {
-    #ifndef M_E
+#ifndef M_E
     cout << "M_E NOT DEFINED";
-    #endif //条件编译
+#endif //条件编译
 }

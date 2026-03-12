@@ -16,7 +16,7 @@ int main()
 
     //基于范围的for语句
     array<int, 5> items = { -2,2,99,4,5 };
-    for (int item:items)
+    for (int item : items)
     {
         cout << item;
     }
@@ -29,14 +29,14 @@ int main()
 
 
 
-    binary_search(items.begin(),items.end(), 5);
+    binary_search(items.begin(), items.end(), 5);
     for (int item : items)
     {
         cout << item;
     }
 
 
-    
+
 
 }
 
