@@ -37,6 +37,17 @@ int main()
 
 
 
+    //vector
+    vector<int> example;
+    example.size();//访问大小
+    example.empty();//判断是否为空
+    example.push_back(1);//在末尾添加元素
+    example.pop_back();//删除末尾元素
+    example.front();//访问第一个元素
+    example.back();//访问最后一个元素
+    example[0];//访问元素
+    example.insert(example.begin() + 1, 2, 5);//在第一个元素前插入2个5
+    example.erase(example.begin(), example.begin() + 2);//删除前两个元素 注意不是前三个，是左闭右开
 
 }
 
